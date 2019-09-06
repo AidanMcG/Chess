@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.2">
+  <zoom_level>8</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>256</x>
+      <y>32</y>
+      <w>208</w>
+      <h>88</h>
+    </coordinates>
+    <panel_attributes>_StartBoard: Board_
+--
+board : dict{(Int x, Int y): Piece}
+           #dictionary mapping all pieces
+           locations at the start of the 
+           game</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>264</x>
+      <y>184</y>
+      <w>168</w>
+      <h>56</h>
+    </coordinates>
+    <panel_attributes>_GameStart: Server_
+--
+turn = white
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>176</x>
+      <y>320</y>
+      <w>168</w>
+      <h>56</h>
+    </coordinates>
+    <panel_attributes>_Player 1: Client_
+--
+colour = white</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>248</x>
+      <y>232</y>
+      <w>120</w>
+      <h>104</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;110.0;130.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>344</x>
+      <y>112</y>
+      <w>24</w>
+      <h>88</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;90.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>16</x>
+      <y>184</y>
+      <w>168</w>
+      <h>64</h>
+    </coordinates>
+    <panel_attributes>_StartTime: Time_
+--
+whiteTime = 300
+blackTime = 300
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>176</x>
+      <y>200</y>
+      <w>104</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;20.0;110.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>368</x>
+      <y>320</y>
+      <w>168</w>
+      <h>56</h>
+    </coordinates>
+    <panel_attributes>_Player 2: Client_
+--
+colour = black </panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>344</x>
+      <y>232</y>
+      <w>120</w>
+      <h>104</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>130.0;110.0;10.0;10.0</additional_attributes>
+  </element>
+</diagram>

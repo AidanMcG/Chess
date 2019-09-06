@@ -1,0 +1,21 @@
+    * User will launch the game and will have to pick a display name.
+    * The user will then be given the choice to either host a game or join one using an IP.
+    * If a user decides to host a game, they will have to wait for another user to join their game.
+    * If a user decides to join a game, they will have to input a valid IP.
+    * Once two users are in a game, they are prompted to pick their desired colour.
+    * If there is a conflict, the server will resolve the users colours.
+    * The user assigned white will start as the active player and their time will begin to count down.
+    * The time will continue to count down as long as the user is the active player.
+    * If the time reaches zero, the opposing player will have won the game and the game will terminate.
+    * Either user can forfeit at any point in the game.
+    * If the user chooses to forfeit, they will be prompted to confirm.
+    * If a user chooses to forfeit, the opposing player will have won the game.
+    * The player will click on the piece they wish to move, this will highlight the clicked piece's valid moves.
+    * The selected piece must always belong to the active player.
+    * The active player moves the piece by clicking on any legal square.
+    * The active player shall capture a piece by moving onto a legal square containing an opposing piece.
+    * The active player will switch when a valid move has been completed.
+    * The next player can then make their move.
+    * This continues until a player makes a move which puts the opposing player in check.
+    * When in check, the player in check will only be given the option to move their king.
+    * If the player is in checkmate then the winner is displayed and the game is terminated.
